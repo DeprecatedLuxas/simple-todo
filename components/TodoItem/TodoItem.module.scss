@@ -1,0 +1,18 @@
+@import "../../styles/variables";
+
+.todo {
+    background-color: $spanish-gray;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+
+    span {
+        word-break: break-word;
+    }
+}
+
+.complete {
+    text-decoration: line-through;
+}
